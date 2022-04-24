@@ -12,3 +12,7 @@ Uma empresa de TI quer desenvolver uma página destinada a novas contratações 
 - Práticar flexbox
 - Melhorar a construção do código
 - Práticar o "olhar clinico"
+
+## Ver resolução Online
+
+https://veroptimustech.netlify.app 
