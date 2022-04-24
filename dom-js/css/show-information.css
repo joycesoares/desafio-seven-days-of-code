@@ -1,0 +1,51 @@
+.section-show-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-information-container{
+    max-width: 960px;
+    padding: 10px 60px;
+}
+
+.show-information-container table{
+    width: 800px;
+}
+
+.show-information-container table thead{
+    opacity: 0.9;
+    font-weight: bold;
+    background-color: var(--background-color-grey);
+    color: var(--text-color-black);
+}
+
+.show-information-container table tr td{
+    text-align: center;
+    padding: 20px 20px;
+    border: 1px solid var(--border-color-black);
+}
+
+.show-information-container .btn-edit{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--text-color-brown);
+    background-color: var(--background-color-gray);
+    border: 1px solid var(--border-color-grey);
+}
+
+.show-information-container .btn-delete{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--text-color-white);
+    background-color: var(--background-color-red);
+    border: 1px solid var(--border-color-grey);
+}

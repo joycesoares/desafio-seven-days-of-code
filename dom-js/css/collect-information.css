@@ -1,0 +1,58 @@
+.section-input-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collect-information-container{
+    max-width: 960px;
+    padding: 60px 60px;
+}
+
+.name-info h3, .date-info h3{
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--text-color-black);
+}
+
+.name-info span, .date-info span{
+    font-size: 0.875em;
+    opacity: 0.5;
+}
+
+.name-info input, .date-info input{
+    width: 550px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: var(--background-color-gray);
+    border: 1px solid var(--border-color-grey);
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.name-info input::placeholder, .date-info input[type="date"]{
+    padding: 8px 8px;
+    color: var(--text-color-grey);
+}
+
+.save-information button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    color: var(--text-color-white);
+    background-color: var(--background-color-green);
+    border: 1px solid var(--border-color-green);
+}
+
+.save-information button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    color: var(--text-color-white);
+    background-color: var(--background-color-green);
+    border: 1px solid var(--border-color-green);
+}
