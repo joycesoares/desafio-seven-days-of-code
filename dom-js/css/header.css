@@ -1,0 +1,20 @@
+.header-info-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color-blue);
+    height: 250px;
+}
+
+.header-info-container h1{
+    color: var(--text-color-white);
+    font-size: 3em;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.header-info-container h1:hover{
+    color: var(--text-color-green);
+    text-decoration: line-through;
+}
