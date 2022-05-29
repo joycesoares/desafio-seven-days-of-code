@@ -52,3 +52,9 @@
 .testimonial-personal img{
     margin: 16px 32px;
 }
+
+@media screen and (max-width: 768px) {
+    .section-testimonial {
+       display: block;
+    }
+}

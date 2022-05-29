@@ -39,3 +39,18 @@
     box-shadow: 0px 0px 0.4px 0.4px  var(--text-color-grey-2);
     margin-top: 64px;
 }
+@media screen and (max-width: 768px) {
+    .section-team-oportunits{
+        padding: 16px 0px;
+    }
+    .team-container h1{
+        font-size: 1.2em;
+    }
+    .team-container p{
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+    .team-container .team-image img{
+        width: 100%;
+    }
+}

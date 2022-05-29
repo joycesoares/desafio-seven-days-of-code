@@ -29,3 +29,17 @@
     font-weight: 400;
     color: var(--text-color-grey);
 }
+
+@media screen and (max-width: 768px) {
+    .section-about-us{
+        margin-top: 40px;
+    }
+    .section-about-us h1{
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .section-about-us p{
+        font-size: 1em;
+        padding: 10px 10px;
+    }
+}

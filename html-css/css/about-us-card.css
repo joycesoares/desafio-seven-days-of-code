@@ -43,3 +43,12 @@
     font-weight: 400;
     color: var(--text-color-grey);
  }
+
+ @media screen and (max-width: 768px) {
+    .about-metrics-container{
+        height: 820px;
+    }
+    .about-cards{
+        height: 200px;
+    }
+}

@@ -69,3 +69,10 @@
     font-weight: 400;
     color: var(--text-color-grey-5);
 }
+
+
+@media screen and (max-width: 768px) {
+    .contact-form input {
+        margin-bottom: 15px;
+    }
+}

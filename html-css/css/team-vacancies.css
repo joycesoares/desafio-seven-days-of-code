@@ -45,3 +45,12 @@
     margin-right: 24px;
     color: var(--text-color-grey);
 }
+
+@media screen and (max-width: 768px) {
+    .section-team-vacancies{
+        justify-content: center;
+    }
+    .vacancies-card{
+        width: 330px;
+    }
+}
